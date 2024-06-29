@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B050D509-C9EF-4B32-816E-B92FDC9FCB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailDesignerPatternNet.API", "src\SendEmailDesignerPatternNet.API\SendEmailDesignerPatternNet.API.csproj", "{387138B7-68DE-4D97-BE8F-36A2B5CA02E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B4A9E69C-3825-448D-9DBD-8DC57F2D30F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{4B30E256-68DE-4CE1-A471-D6E6A48F0E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{897D2FDF-419A-46F3-A294-A2329C1C6E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Email", "Email", "{2169A964-CD3E-4E15-BB14-9DA967CD8F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailDDDAspNet.Domain", "Domains\SendEmailDDDAspNet.Domain\SendEmailDDDAspNet.Domain.csproj", "{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailDDDAspNet.Data", "Infrastructures\SendEmailDDDAspNet.Data\SendEmailDDDAspNet.Data.csproj", "{2E89FA29-0BCE-4C96-A75F-09812FE597D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailDDDAspNet.API", "services\Email\SendEmailDDDAspNet.API\SendEmailDDDAspNet.API.csproj", "{194EA374-F936-4FD7-9936-71632731FE18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Email", "Email", "{69C34D89-EA7D-44A5-9CBE-FAECF9CFD5AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Email", "Email", "{84ECEFEE-471D-4DAE-A18A-5F6CCEE3035F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{387138B7-68DE-4D97-BE8F-36A2B5CA02E7} = {B050D509-C9EF-4B32-816E-B92FDC9FCB96}
+		{2169A964-CD3E-4E15-BB14-9DA967CD8F1C} = {B4A9E69C-3825-448D-9DBD-8DC57F2D30F0}
+		{194EA374-F936-4FD7-9936-71632731FE18} = {2169A964-CD3E-4E15-BB14-9DA967CD8F1C}
+		{69C34D89-EA7D-44A5-9CBE-FAECF9CFD5AC} = {4B30E256-68DE-4CE1-A471-D6E6A48F0E28}
+		{2E89FA29-0BCE-4C96-A75F-09812FE597D1} = {69C34D89-EA7D-44A5-9CBE-FAECF9CFD5AC}
+		{84ECEFEE-471D-4DAE-A18A-5F6CCEE3035F} = {897D2FDF-419A-46F3-A294-A2329C1C6E66}
+		{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2} = {84ECEFEE-471D-4DAE-A18A-5F6CCEE3035F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387138B7-68DE-4D97-BE8F-36A2B5CA02E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387138B7-68DE-4D97-BE8F-36A2B5CA02E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387138B7-68DE-4D97-BE8F-36A2B5CA02E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387138B7-68DE-4D97-BE8F-36A2B5CA02E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9E50FC-F70C-43B3-8F93-E48BDA33C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E89FA29-0BCE-4C96-A75F-09812FE597D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E89FA29-0BCE-4C96-A75F-09812FE597D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E89FA29-0BCE-4C96-A75F-09812FE597D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E89FA29-0BCE-4C96-A75F-09812FE597D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194EA374-F936-4FD7-9936-71632731FE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194EA374-F936-4FD7-9936-71632731FE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194EA374-F936-4FD7-9936-71632731FE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194EA374-F936-4FD7-9936-71632731FE18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
