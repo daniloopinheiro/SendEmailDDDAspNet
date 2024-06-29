@@ -1,4 +1,4 @@
-# SendEmailDesignerPatternNet
+# SendEmailDDDAspNet
 
 Fonte de referencia:
 

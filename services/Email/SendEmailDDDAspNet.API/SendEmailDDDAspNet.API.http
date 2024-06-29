@@ -1,6 +1,0 @@
-@SendEmailDDDAspNet.API_HostAddress = http://localhost:5116
-
-GET {{SendEmailDDDAspNet.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
